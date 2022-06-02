@@ -12,4 +12,5 @@ const carrosSchema = new mongoose.Schema(
 
 const Carro = mongoose.model("carros", carrosSchema);
 
+
 export default Carro;

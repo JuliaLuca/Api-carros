@@ -4,4 +4,5 @@ export const listarCarrosService = async () => {
   const carros = await Carro.find();
 
   return carros;
+  
 };
